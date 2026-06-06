@@ -1,0 +1,17 @@
+<!---<DBQUERY NAME="APPEAR" DATASOURCE="LUCYLIPPS" SQL="SELECT * FROM APPEARANCES WHERE DATE">= {FN CURDATE() } ORDER BY DATE"><DBQUERY NAME="GETPAGE" DATASOURCE="HOMEFREE" SQL="SELECT * FROM HTMLDATA WHERE PAGEID = 186;"><DBSET ="CURRENTCOUNT#" ="#INCREMENTVALUE(GETPAGE.CURRENTCOUNTER)#"><DBSET ="TOTALCOUNT#" ="#INCREMENTVALUE(GETPAGE.TOTALCOUNTER)#"><DBQUERY NAME="ADDONECOUNT" DATASOURCE="HOMEFREE" SQL="UPDATE HTMLDATA        SET CURRENTCOUNTER = #CURRENTCOUNT#,           TOTALCOUNTER = #TOTALCOUNT#,           DATETIME = { fn NOW() }        WHERE PAGEID = 186">//--->
+
+<html>
+<head><title>Upcoming Appearances</title></head>
+<body BGCOLOR="#FFFFFF">
+
+<p ALIGN="center"><img ALT="Upcoming Apperances" BORDER="0" SRC="images/upcoming.jpg" WIDTH="271" HEIGHT="37"> <a HREF="default.htm"><img ALT="Lucy Lipps Home Page" BORDER="0" SRC="images/slucy.jpg" WIDTH="72" HEIGHT="69"></a>
+
+<h3 ALIGN="center"><a HREF="168.htm">Lucy's Little Black Book</a> | <a HREF="default.htm">Lucy Lipps Home Page</a></h3>
+
+
+<hr>
+
+<!---<DBOUTPUT QUERY="APPEAR" MAXROWS="20"><DL><DT><B>#DATEFORMAT(DATE)#</B><BR><DD>#APPEARANCE#</DD></DL><HR></DBOUTPUT>//--->
+
+</body>
+</html>

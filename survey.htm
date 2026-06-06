@@ -1,0 +1,36 @@
+<DBQUERY NAME="GETPAGE" DATASOURCE="HOMEFREE" SQL="SELECT * FROM HTMLDATA WHERE PAGEID = 203;">
+
+<DBSET #CURRENTCOUNT# = #INCREMENTVALUE(GETPAGE.CURRENTCOUNTER)#>
+<DBSET #TOTALCOUNT# = #INCREMENTVALUE(GETPAGE.TOTALCOUNTER)#>
+
+<DBQUERY NAME="ADDONECOUNT" DATASOURCE="HOMEFREE" 
+SQL = "UPDATE HTMLDATA 
+       SET CURRENTCOUNTER = #CURRENTCOUNT#,
+           TOTALCOUNTER = #TOTALCOUNT#,
+           DATETIME = { fn NOW() } 
+       WHERE PAGEID = 203">
+
+<DBINSERT DATASOURCE="LUCYLIPPS" TABLENAME="LUCYLIPPSSURVEY">
+
+<DBMAIL FROM="lucy@lucylipps.com"
+        TO="#FORM.EMAIL#"
+        SUBJECT="Thanks for registering.">
+
+Thanks for filling out my Personal Guest Register!  Having all of your 
+information enables me to keep you up-to-date on future "Lucy 
+Liasons" (appearances),  new merchandise and specials that are ONLY offered 
+to my friends that are registered!  Thanks so much for stopping by my site!  
+I'll be in touch ---so You be in touch!
+
+Once again, thanks for registering.
+
+Ciao!  
+
+Lucy
+
+Lucy@LucyLipps.Com
+http://www.lucylipps.com/
+</DBMAIL>
+
+<DBLOCATION URL="http://www.lucylipps.com/cgi-shl/dbml.exe?template=/homefree/view.dbm&pageid=165">
+

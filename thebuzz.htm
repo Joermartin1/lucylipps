@@ -1,0 +1,55 @@
+<!---<DBQUERY NAME="WHATSTHEBUZZ" DATASOURCE="LUCYLIPPS" SQL="SELECT * FROM WHATSTHEBUZZ ORDER BY DATE DESC"><DBQUERY NAME="GETPAGE" DATASOURCE="HOMEFREE" SQL="SELECT * FROM HTMLDATA WHERE PAGEID = 190;"><DBSET ="CURRENTCOUNT#" ="#INCREMENTVALUE(GETPAGE.CURRENTCOUNTER)#"><DBSET ="TOTALCOUNT#" ="#INCREMENTVALUE(GETPAGE.TOTALCOUNTER)#"><DBQUERY NAME="ADDONECOUNT" DATASOURCE="HOMEFREE" SQL="UPDATE HTMLDATA        SET CURRENTCOUNTER = #CURRENTCOUNT#,           TOTALCOUNTER = #TOTALCOUNT#,           DATETIME = { fn NOW() }        WHERE PAGEID = 190">//--->
+<html>
+<head><title>What's The Buzz?</title></head>
+<body BGCOLOR="#FFFFFF">
+
+<p ALIGN="center"><img ALT="What's the Buzz?" BORDER="0" SRC="images/whatbuzz.jpg" WIDTH="161" HEIGHT="33"> <a HREF="default.htm"><img ALT="Lucy Lipps Home Page" BORDER="0" SRC="images/slucy.jpg" WIDTH="72" HEIGHT="69"></a>
+
+<h3 ALIGN="center"><a HREF="170.htm">Kiss &amp; Tell</a> | <a HREF="default.htm">Lucy Lipps Home Page</a></h3>
+
+<hr>
+
+<!---<DBOUTPUT QUERY="WHATSTHEBUZZ" MAXROWS="20"><DL><DT><B>#DATEFORMAT(DATE)#</B><BR><DD>#THEBUZZ#</DD></DL><HR></DBOUTPUT>//--->
+
+<center>
+
+  <table BORDER="0" CELLPADDING="7">
+    <tr VALIGN="top"> 
+      <th ALIGN="left"> 
+        <div align="center"><a HREF="dearlucy.htm">Lipp Service</a></div>
+      </th>
+      <th ALIGN="left"> 
+        <div align="center"><a HREF="167.htm">Step Into<br>
+          My Parlor</a></div>
+      </th>
+      <th ALIGN="left"> 
+        <div align="center"><a HREF="168.htm">Lucy's Little<br>
+          Black Book</a></div>
+      </th>
+      <th ALIGN="left"> 
+        <div align="center"><a HREF="170.htm">Kiss &amp; Tell</a></div>
+      </th>
+    </tr>
+    <tr VALIGN="top"> 
+      <th ALIGN="left"> 
+        <div align="center"><a href="171.htm">Lucy's Pondering<br>
+          Complexities</a></div>
+      </th>
+      <th ALIGN="left"> 
+        <div align="center"><a HREF="195.htm">Fill out<br>
+          my survey!!!</a></div>
+      </th>
+      <th ALIGN="left"> 
+        <div align="center"><a HREF="173.htm">Lucy's<br>
+          Hot Links</a></div>
+      </th>
+      <th ALIGN="left"> 
+        <div align="center"><a href="178.htm">About LucyLipps.com</a></div>
+      </th>
+    </tr>
+  </table>
+
+</center>
+
+</body>
+</html>

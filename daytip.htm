@@ -1,0 +1,18 @@
+<!---<DBQUERY NAME="QANDA" DATASOURCE="LUCYLIPPS" SQL="SELECT * FROM DEARMISSLIPPS WHERE ANSWER<">'' ANDCATEGORY='LOVE TIPS OF THE DAY' AND POSTIT=1 ORDER BY DATE DESC;"><DBQUERY NAME="GETPAGE" DATASOURCE="HOMEFREE" SQL="SELECT * FROM HTMLDATA WHERE PAGEID = 179;"><DBSET ="CURRENTCOUNT#" ="#INCREMENTVALUE(GETPAGE.CURRENTCOUNTER)#"><DBSET ="TOTALCOUNT#" ="#INCREMENTVALUE(GETPAGE.TOTALCOUNTER)#"><DBQUERY NAME="ADDONECOUNT" DATASOURCE="HOMEFREE" SQL="UPDATE HTMLDATA        SET CURRENTCOUNTER = #CURRENTCOUNT#,           TOTALCOUNTER = #TOTALCOUNT#,           DATETIME = { fn NOW() }       WHERE PAGEID = 179">//--->
+
+<html>
+<head><title>Love Tips of the Day</title></head>
+<body BGCOLOR="#FFFFFF">
+
+<p ALIGN="center"><img ALT="Love Tips of the Day" BORDER="0" SRC="images/lovetip.jpg" WIDTH="244" HEIGHT="35"> <a HREF="default.htm"><img ALT="Lucy Lipps Home Page" BORDER="0" SRC="images/slucy.jpg" WIDTH="72" HEIGHT="69"></a>
+
+<h3 ALIGN="center"><a HREF="dearlucy.htm">Lipp Service</a> | <a HREF="167.htm">Step Into My Parlor</a> | <a HREF="default.htm">Lucy Lipps Home Page</a>
+</h3>
+
+<hr>
+
+<!---<DBOUTPUT QUERY="QANDA" MAXROWS="1"><DL><DT><B>#DATEFORMAT(DATE)#</B><BR><DD>#ANSWER#</DD></DL><HR></DBOUTPUT>//--->
+
+
+</body>
+</html>
