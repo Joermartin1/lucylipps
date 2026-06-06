@@ -1,0 +1,113 @@
+LucyLipps GitHub Pages fix
+===========================
+
+Changes made:
+- Rewrote hardcoded http://www.lucylipps.com/images/... references to images/...
+- Rewrote root-relative /images/... references to images/... for GitHub Pages project path compatibility.
+- Left external non-lucylipps links and mailto: links unchanged.
+- Kept index.html in root for GitHub Pages homepage.
+
+Changed files:
+- 168.htm
+- 169.htm
+- 171.htm
+- 173.htm
+- 175.htm
+- 176.htm
+- 177.htm
+- 178.htm
+- 195.htm
+- 201.htm
+- 209.htm
+- 225.htm
+- beth in a rut.htm
+- dearlucy.htm
+- dying_on_southwest.htm
+- hear_my_pain.htm
+- insane_beauty.htm
+- looks not an ass-et.htm
+- lucys_rants.htm
+- mrs_robinson.htm
+- power_sushi.htm
+- simba.htm
+- the_one.htm
+
+Image paths referenced by pages:
+- images/5percmdt.gif
+- images/LLPOSTR1.gif
+- images/PARTYPIX.jpg
+- images/about.jpg
+- images/about2.jpg
+- images/advert2.jpg
+- images/badtaste.jpg
+- images/book.jpg
+- images/celebclose.jpg
+- images/crew.jpg
+- images/cyrano.gif
+- images/dating.jpg
+- images/deductbox.gif
+- images/gift.jpg
+- images/hhotline.jpg
+- images/hhotline2.jpg
+- images/jack.jpg
+- images/links.jpg
+- images/llpostr1.gif
+- images/llpostr2.gif
+- images/llpostr3.gif
+- images/lovetip.jpg
+- images/lucy_br.gif
+- images/lucy_m1.gif
+- images/lucypp02.gif
+- images/lucypp04.gif
+- images/lucypp05.gif
+- images/lucypp06.gif
+- images/lucypp07.gif
+- images/lucypp08.gif
+- images/lucypp09.gif
+- images/lucypp10.gif
+- images/lucypp11.gif
+- images/lucypp12.gif
+- images/lucypp13.gif
+- images/lucypp14.gif
+- images/lucypp15.gif
+- images/lucypp16.gif
+- images/lucypp17.gif
+- images/lucypp18.gif
+- images/lucypp19.gif
+- images/lucypp20.gif
+- images/lucypp21.gif
+- images/lucypp22.gif
+- images/lucypp23.gif
+- images/lucypp24.gif
+- images/lucypp25.gif
+- images/lucypp26.gif
+- images/lucypp27.gif
+- images/lucypp28.gif
+- images/lucypp30.gif
+- images/lucypp31.gif
+- images/lucypp33.gif
+- images/lucypp35.gif
+- images/lucypp36.gif
+- images/lucypp37.gif
+- images/lucypp38.gif
+- images/lucypp39.gif
+- images/lucypp40.gif
+- images/lucypp41.gif
+- images/lucys_rants.jpg
+- images/lucysbio.jpg
+- images/match.jpg
+- images/men.jpg
+- images/pam.jpg
+- images/parlor2.jpg
+- images/partypix.jpg
+- images/ponder.jpg
+- images/rublucy.jpg
+- images/scoop.jpg
+- images/screensave.jpg
+- images/service.jpg
+- images/slucy.jpg
+- images/survey.jpg
+- images/upcoming.jpg
+- images/waiflucy.jpg
+- images/whatbuzz.jpg
+- images/women.jpg
